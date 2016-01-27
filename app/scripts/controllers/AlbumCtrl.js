@@ -3,6 +3,7 @@
          this.albumData = [];
          for (var i=0; i < 12; i++) {
              this.albumData = Fixtures.getAlbum();
+             
          }
      }
  
