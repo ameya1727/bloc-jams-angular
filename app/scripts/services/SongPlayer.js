@@ -1,5 +1,4 @@
 (function() {
-<<<<<<< HEAD
      function SongPlayer(Fixtures) {
           var SongPlayer = {};
          
@@ -10,12 +9,6 @@
      };
          
          SongPlayer.currentSong = null;
-=======
-     function SongPlayer() {
-          var SongPlayer = {};
-         
-         var currentSong = null;
->>>>>>> 2c256100b0db5a1d6209023487ee91154eaa92b5
  /**
  * @desc Buzz object audio file
  * @type {Object}
@@ -48,11 +41,7 @@
     };
          
          SongPlayer.play = function(song) {
-<<<<<<< HEAD
          song = song || SongPlayer.currentSong;    
-=======
-             
->>>>>>> 2c256100b0db5a1d6209023487ee91154eaa92b5
          if (currentSong !== song) {
              setSong(song);
              playSong();
@@ -63,7 +52,6 @@
          }
      }    
      };
-<<<<<<< HEAD
         /**
          * @function pause
          * @desc Pause current song
@@ -89,8 +77,6 @@
              }
             
          };
-=======
->>>>>>> 2c256100b0db5a1d6209023487ee91154eaa92b5
 
          
           return SongPlayer;
